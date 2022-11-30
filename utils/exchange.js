@@ -13,7 +13,7 @@ export const getExchange = async () => {
     const money = $(el).find('td').first().text();
 
     if (data.trim() && money.trim()) {
-      result[data] = money;
+      result[data] = Number(money.replace(/,/g, ''));
     }
   });
 
