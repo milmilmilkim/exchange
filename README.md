@@ -9,6 +9,8 @@ get /exchange
 ### response
 
 example 
+
+```js
 {
 	"USD": 1308.6,
 	"JPY": 955.18,
@@ -40,3 +42,5 @@ example
 	"BND": 965.83
 }
 
+
+```
